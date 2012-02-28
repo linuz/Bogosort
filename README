@@ -1,1 +1,3 @@
-NOT YET COMPLETE
+Just a simple demonstration of a bogosort algorithm <http://en.wikipedia.org/wiki/Bogosort>
+
+Input an array into the variable 'INPUT_ARRAY' and watch it attempt to sort it!
