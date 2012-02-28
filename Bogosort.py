@@ -1,8 +1,8 @@
 #!/usr/bin/python
 #############################################################
-# Bogo-Sort for Python										#
+# Bogosort for Python										#
 # by: Dennis Linuz <dennismald@gmail.com>					#
-# Demonstration of a bogosort								#
+# Demonstration of a bogosort.								#
 #############################################################
 
 #Input your list of numbers here!
