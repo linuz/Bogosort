@@ -2,11 +2,11 @@
 #############################################################
 # Bogo-Sort for Python										#
 # by: Dennis Linuz <dennismald@gmail.com>					#
-# Demonstration of a bogo-sort								#
+# Demonstration of a bogosort								#
 #############################################################
 
 #Input your list of numbers here!
-INPUT_ARRAY = ([1,2,5,3,6,8])
+INPUT_ARRAY = ([1,2,5,3,6,8,3,3,5,6])
 
 import random
 #Shuffle the array items into a random order
