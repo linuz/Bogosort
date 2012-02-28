@@ -6,9 +6,9 @@
 #############################################################
 
 #Input your list of numbers here!
-INPUT_ARRAY = ([1,2,5,3,6,8,3,3,5,6])
+INPUT_ARRAY = ([2,5,3,6,3,5,7,3,5])
 
-import random
+import random,time
 #Shuffle the array items into a random order
 def randomizeList(array):
 	for x in xrange(0,len(array)):
@@ -32,6 +32,7 @@ def isOrdered(array):
 
 testArray=INPUT_ARRAY
 count = 0
+time1 = time.time()
 while (not isOrdered(testArray)):
 	print "Shuffling: " + str(testArray)
 	testArray = randomizeList(testArray)
@@ -39,3 +40,5 @@ while (not isOrdered(testArray)):
 print ""
 print "Sorted after " + str(count) + " tries."
 print "Sorted: " + str(testArray)
+print "---"
+print "Overall Time: " + str(time.time()-time1) + " seconds"
